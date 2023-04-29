@@ -1,3 +1,4 @@
+//setTimeoutの別な使い方
 const sampleCallbaclFunc = () => {
     console.log('最初');
 
