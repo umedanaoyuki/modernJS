@@ -10,6 +10,7 @@ const asyncFuncWaitingtest = async (num) => {
 };
 
 //awaitがついているので、上から順番に実行されていく
+//awaitをつけない場合は、順番に実行されない
 const asyncTestFunc = async () => {
     console.log('1番目の処理');
     await asyncFuncWaitingtest(1);
